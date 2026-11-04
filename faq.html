@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hi-Latn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ | Seekho Digital</title>
+  <meta name="description" content="Learning order, tools, certificates, practice, projects, submission aur portfolio ke beginner sawalon ke jawab.">
+  <meta name="theme-color" content="#111D35">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Content par jao</a>
+  <header id="site-header"></header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Aksar poochhe jaane wale sawal</h1>
+        <p class="lead">Beginners ke sabse common sawal, saaf jawab ke saath.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap prose">
+        <div class="filters" style="grid-template-columns:1fr">
+          <div>
+            <label for="q">Sawal dhoondho</label>
+            <input type="search" id="q" placeholder="Jaise: certificate, portfolio" autocomplete="off">
+          </div>
+          <div class="chips" id="cats" role="group" aria-label="Topic"></div>
+        </div>
+        <p class="count" id="count" aria-live="polite"></p>
+        <div class="faq" id="faq"></div>
+        <p class="fine">Jawab nahi mila? Official resource ya project page par detail dekho.</p>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+  <script src="assets/faq.js"></script>
+</body>
+</html>
