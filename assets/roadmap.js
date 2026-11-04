@@ -228,7 +228,14 @@
   document.getElementById("open-all").addEventListener("click", function () { host.querySelectorAll("details").forEach(function (d) { d.open = true; }); });
   document.getElementById("close-all").addEventListener("click", function () { host.querySelectorAll("details").forEach(function (d) { d.open = false; }); });
   document.getElementById("reset").addEventListener("click", function () {
-    if (confirm("Saari checklist progress hata di jayegi. Pakka reset karna hai?")) { App.Store.write({ checks: {} }); paint(); }
+    if (confirm("Roadmap (Level 1 se 9) ki checklist progress hata di jayegi. Projects ki progress safe rahegi. Pakka reset karna hai?")) {
+      var data = App.Store.read();
+      Object.keys(data.checks).forEach(function (key) {
+        if (/^L[1-9]-[1-5]$/.test(key)) { delete data.checks[key]; }
+      });
+      App.Store.write(data);
+      paint();
+    }
   });
 
   paint();
