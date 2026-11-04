@@ -24,10 +24,26 @@
     /* Checklist item ka key: "L4-2" = Level 4, item 2 */
     isChecked: function (key) { return !!Store.read().checks[key]; },
     setChecked: function (key, on) {
-      var d = Store.read();
-      if (on) { d.checks[key] = true; } else { delete d.checks[key]; }
-      return Store.write(d);
+  var d = Store.read();
+  if (on) {
+    d.checks[key] = true;
+  } else {
+    delete d.checks[key];
+  }
+  return Store.write(d);
+},
+
+resetRoadmap: function () {
+  var d = Store.read();
+
+  C.levels.forEach(function (level) {
+    for (var i = 1; i <= level.checks; i++) {
+      delete d.checks["L" + level.n + "-" + i];
     }
+  });
+
+  return Store.write(d);
+}
   };
 
   /* ---------- 2. Progress ---------- */
