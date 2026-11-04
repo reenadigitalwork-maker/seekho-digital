@@ -1,3 +1,10 @@
+/* =====================================================
+   SEEKHO DIGITAL - assets/style.css  (design system)
+   1 Tokens  2 Base  3 Layout  4 Buttons  5 Header/Footer
+   6 Hero  7 Sections  8 Components  9 Desktop
+   ===================================================== */
+
+/* ---------- 1. Tokens ---------- */
 :root {
   --navy: #111D35;
   --navy-2: #1A2A4B;
@@ -307,3 +314,42 @@ a { color: var(--teal-dark); text-underline-offset: 3px; }
 .nextstep { margin-top: 18px; padding: 14px 16px; background: var(--navy); color: var(--paper); border-radius: var(--r-s); }
 .nextstep a { color: var(--gold); font-weight: 700; }
 .btn-danger { border-color: #E3B7A4; color: #8A3B14; background: var(--white); }
+
+/* =====================================================
+   11. Filters, resource cards, project modules
+   ===================================================== */
+.filters { display: grid; gap: 12px; margin-bottom: 18px; }
+.filters label { font-weight: 700; font-size: .9rem; display: block; margin-bottom: 4px; }
+.filters input[type="search"], .filters select { width: 100%; min-height: 48px; padding: 0 14px; border: 2px solid var(--line); border-radius: var(--r-m); background: var(--white); font: 600 1rem var(--font-body); color: var(--ink); }
+.filters input:focus, .filters select:focus { border-color: var(--teal); outline: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { min-height: 44px; padding: 0 16px; border: 2px solid var(--line); border-radius: 999px; background: var(--white); font: 700 .92rem var(--font-body); color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--navy); color: var(--gold); border-color: var(--navy); }
+.count { color: var(--muted); font-size: .92rem; margin: 0 0 12px; }
+.empty { padding: 20px; background: var(--white); border: 1px dashed var(--line); border-radius: var(--r-m); color: var(--muted); }
+
+.notice { padding: 16px; background: var(--gold-tint); border-left: 4px solid var(--gold); border-radius: var(--r-s); margin-bottom: 22px; }
+.notice h2 { font: 700 1rem var(--font-body); margin: 0 0 6px; }
+.notice p { margin: 0 0 6px; font-size: .95rem; }
+.notice p:last-child { margin: 0; }
+
+.rlist { display: grid; gap: 14px; }
+.rcard { background: var(--white); border: 1px solid var(--line); border-radius: var(--r-m); padding: 18px; box-shadow: var(--shadow); }
+.rcard h3 { margin-bottom: 6px; }
+.rcard .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.rcard dl { margin: 12px 0; display: grid; gap: 10px; }
+.rcard dt { font-weight: 700; font-size: .85rem; color: var(--teal-dark); }
+.rcard dd { margin: 0; font-size: .95rem; }
+.rcard .after { padding: 12px 14px; background: var(--teal-tint); border-radius: var(--r-s); font-size: .95rem; margin-bottom: 14px; }
+.tag.n { background: var(--paper); color: var(--ink); border: 1px solid var(--line); }
+
+.mod .kv { display: grid; gap: 4px; }
+.sim { display: inline-block; margin-left: 6px; padding: 2px 8px; border-radius: 6px; background: var(--gold); color: var(--navy); font-size: .75rem; font-weight: 700; }
+
+@media (min-width: 900px) {
+  .filters { grid-template-columns: 2fr 1fr; align-items: end; }
+  .filters .chips-wrap { grid-column: 1 / -1; }
+  .rlist { grid-template-columns: 1fr 1fr; }
+  .rcard dl { grid-template-columns: 1fr 1fr; }
+}
+.mod[hidden]{display:none}
