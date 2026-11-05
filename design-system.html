@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
 <meta name="theme-color" content="#111D35">
+<meta name="description" content="Preview the Seekho Digital learning experience: clear lessons, guided practice and honest self-checks.">
 <script>document.documentElement.classList.add("js")</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,346 +12,64 @@
 <link rel="stylesheet" href="assets/ds/tokens.css">
 <link rel="stylesheet" href="assets/ds/base.css">
 <link rel="stylesheet" href="assets/ds/components.css">
-<title>Design system | Seekho Digital</title>
+<link rel="stylesheet" href="assets/ds/patterns.css">
+<title>Seekho Digital — Learning experience preview</title>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header on-dark" id="top">
-  <div class="wrap hdr">
-    <a class="brand" href="design-system.html"><svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#F5BD4B"/><path d="M7 22h6v-5h6v-5h6" fill="none" stroke="#111D35" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Seekho Digital</span></a>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg><span class="mb-label">Menu</span></button>
-    <nav class="nav" id="site-nav" aria-label="Main">
-      <a href="roadmap.html">Course</a>
-      <a href="projects.html">Workbook</a>
-      <a href="design-system.html#check">Check Your Work</a>
-      <a href="resources.html">Resources</a>
-      <a href="faq.html">Help</a>
-    </nav>
-  </div>
-</header>
+<header class="site-header on-dark" id="top"><div class="wrap hdr">
+  <a class="brand" href="design-system.html" aria-label="Seekho Digital preview home"><svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#F5BD4B"/><path d="M7 22h6v-5h6v-5h6" fill="none" stroke="#111D35" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Seekho Digital</span></a>
+  <nav class="nav desktop-nav" aria-label="Main navigation"><a href="#dashboard">Course</a><a href="#workbook">Workbook</a><a href="#check">Check Your Work</a><a href="#resources">Resources</a><a href="#help">Help</a></nav>
+  <details class="mobile-nav"><summary class="mobile-menu-trigger">Menu</summary><nav class="mobile-panel" aria-label="Mobile navigation"><a href="#dashboard">Course</a><a href="#workbook">Workbook</a><a href="#check">Check Your Work</a><a href="#resources">Resources</a><a href="#help">Help</a></nav></details>
+</div></header>
 <main id="main">
+<div class="xp-label"><div class="wrap"><span><strong>DESIGN PREVIEW</strong> · A sample learning experience, not the finished course.</span><a href="#lesson">Jump to a sample lesson ↓</a></div></div>
+<section class="hero-x on-dark" aria-labelledby="hero-title"><div class="wrap grid"><div>
+  <span class="preview-tag">START FROM ZERO · LEARN BY DOING</span><p class="sub">Digital marketing, made understandable.</p>
+  <h1 id="hero-title">Learn one skill. Practise it. Make it better.</h1>
+  <p class="lead-x">A calm, step-by-step learning experience for people who are new to digital marketing. Understand the idea, see an example, try it yourself and learn how to improve.</p>
+  <div class="cta-row"><a class="btn btn-gold" href="#dashboard">Explore the learning path <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="btn btn-text" href="#lesson">See a sample lesson</a></div>
+  <ol class="mini-steps"><li><span><strong>Understand</strong>Plain-English explanations, one idea at a time.</span></li><li><span><strong>See it</strong>Examples and demonstrations based on a small business.</span></li><li><span><strong>Try and improve</strong>Practice tasks, mistake guides and self-checks.</span></li></ol>
+</div><figure class="post-mock"><div class="pm-head"><span class="pm-avatar" aria-hidden="true">M</span><span><strong>Maple Lane Home Bakery</strong><small>Example social post · SIMULATED</small></span></div>
+<div class="pm-img"><svg viewBox="0 0 440 290" role="img" aria-labelledby="bakery-title bakery-desc"><title id="bakery-title">Illustration of a weekend cake box</title><desc id="bakery-desc">A cake with berries inside a cream box, tied with a gold ribbon.</desc><rect width="440" height="290" fill="#F6E9D6"/><circle cx="362" cy="57" r="47" fill="#F5BD4B" opacity=".35"/><path d="M0 230 Q130 205 245 230 T440 220 V290 H0Z" fill="#D9B99B"/><ellipse cx="220" cy="231" rx="142" ry="25" fill="#98745E" opacity=".25"/><path d="M95 140 L220 91 L345 140 V225 L220 274 L95 225Z" fill="#FFFDF7" stroke="#B9A28C" stroke-width="3"/><path d="M95 140 L220 188 L345 140 M220 91 V188 M220 188 V274" fill="none" stroke="#D0BCA7" stroke-width="3"/><ellipse cx="220" cy="145" rx="69" ry="43" fill="#F2D5B8"/><ellipse cx="220" cy="133" rx="58" ry="34" fill="#FFF4E7"/><path d="M165 137 Q178 126 190 139 T215 137 T245 137 T274 136" fill="none" stroke="#D58B72" stroke-width="5" stroke-linecap="round"/><circle cx="190" cy="118" r="10" fill="#A8403A"/><circle cx="214" cy="111" r="11" fill="#8E2730"/><circle cx="241" cy="119" r="10" fill="#B64B45"/><path d="M190 108q-8 -12 -15 -8 M214 100q-2 -12 6 -14 M241 109q8 -12 16 -8" fill="none" stroke="#47765A" stroke-width="4" stroke-linecap="round"/><path d="M220 91v96" stroke="#F5BD4B" stroke-width="7"/><path d="M220 188 Q188 202 190 216 Q206 218 220 198 Q234 218 250 216 Q252 202 220 188Z" fill="#F5BD4B"/><text x="220" y="254" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#5B4639">MADE WITH CARE</text></svg></div>
+<div class="pm-body"><p class="pm-title">A little treat for the weekend.</p><p>Meet the Weekend Cake Box: a small-batch selection made for sharing.</p><a class="pm-cta" href="#lesson">See how this post works <span aria-hidden="true">→</span></a></div><figcaption class="pm-cap"><p><span class="badge db-sim" data-i="flask">SIMULATED EXAMPLE</span></p>The bakery and this post are fictional teaching examples. No real sales or results are claimed.</figcaption></figure></div></section>
 
-<section class="page-hero on-dark">
-  <div class="wrap">
-    <h1>Seekho Digital design system</h1>
-    <p>Every component below is real and working. Tap, type and use the keyboard. This page is a preview and is not connected to the live course pages.</p>
-    <p class="row" style="margin-top:16px"><button type="button" class="btn btn-gold" id="reset-demo">Reset demo data</button></p>
-  </div>
-</section>
+<section class="band" id="dashboard" aria-labelledby="dash-title"><div class="wrap"><p class="phase"><span data-i="book">YOUR LEARNING PATH</span></p><h2 id="dash-title">Know what to learn next.</h2><p class="lead-x">Move from the basics to a complete practice campaign. Your next step stays visible, so you are not left guessing.</p>
+<div class="dash"><aside class="next"><p class="kicker">YOUR NEXT LESSON</p><h3>What is marketing?</h3><p>Start with the simple idea behind every marketing activity: understand people, help them choose and serve them well.</p><div class="meter" role="progressbar" aria-label="Illustrative module progress" aria-valuemin="0" aria-valuemax="8" aria-valuenow="2"><span style="width:25%"></span></div><p class="meta">Module 1 · Foundations · Sample progress: 2 of 8 lessons</p><a class="btn btn-gold" href="#lesson">Open sample lesson <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a></aside>
+<div><ol class="path" aria-label="Course modules"><li class="cur"><span class="dot">1</span><h3>Digital Marketing Foundations</h3><p class="make">Understand the basics and set a clear business goal.</p><ul class="lessons"><li class="ls-checked"><svg class="i" aria-hidden="true"><use href="#i-check-circle"/></svg><span><span class="t">What is marketing?</span><span class="s">Understand the purpose of marketing.</span></span></li><li class="ls-practised"><svg class="i" aria-hidden="true"><use href="#i-check-circle"/></svg><span><span class="t">What is digital marketing?</span><span class="s">Compare online and offline examples.</span></span></li><li class="here ls-doing"><svg class="i" aria-hidden="true"><use href="#i-half"/></svg><span><span class="t">How customers choose</span><span class="s">See awareness, consideration and decision.</span></span></li></ul></li><li><span class="dot">2</span><h3>Understanding Customers</h3><p class="make">Learn what people need and how to research responsibly.</p></li><li><span class="dot">3</span><h3>Content and Copywriting</h3><p class="make">Turn customer needs into clear, useful messages.</p></li><li><span class="dot">4</span><h3>Website and Landing Page Basics</h3><p class="make">Create a clear path from interest to action.</p></li></ol><p class="then">Modules 5–10 continue with SEO, social media, email, paid ads, analytics and the final portfolio project.</p>
+<div class="demo-progress"><p><strong>Try the progress labels</strong> <span class="small muted">— sample data saved in this browser.</span></p><p id="mod-label" aria-live="polite"><strong>Sample lesson progress</strong></p><div class="meter" id="mod-meter" role="progressbar" aria-label="Sample lessons self-checked" aria-valuemin="0" aria-valuemax="2" aria-valuenow="0"><span style="width:0%"></span></div>
+<div class="lesson-row"><span class="lesson-n">1</span><strong>What is marketing?</strong><div class="lesson-meta"><span class="badge state-badge st-none"></span><label class="vh" for="l1">Progress for What is marketing</label><select class="select" id="l1" style="width:auto;min-height:44px"><option value="none">Not started</option><option value="doing">In progress</option><option value="practised">Practised</option><option value="checked">Self-checked</option></select></div></div>
+<div class="lesson-row"><span class="lesson-n">2</span><strong>What is digital marketing?</strong><div class="lesson-meta"><span class="badge state-badge st-none"></span><label class="vh" for="l2">Progress for What is digital marketing</label><select class="select" id="l2" style="width:auto;min-height:44px"><option value="none">Not started</option><option value="doing">In progress</option><option value="practised">Practised</option><option value="checked">Self-checked</option></select></div></div></div><p class="small muted">Self-checked means you compared your own work with a rubric. It is not an expert review.</p></div></div></div></section>
 
-<!-- 1 COLOUR -->
-<section class="ds-sec reveal" id="colour">
-  <div class="wrap">
-    <h2>1. Colour and contrast</h2>
-    <p class="lead">Teal means action, progress and correct. Gold marks position and simulated data. Warnings and errors always use an icon and words, never colour alone.</p>
-    <div class="grid-auto">
-      <div class="swatch"><i style="background:#111D35"></i>Navy #111D35<br><span class="muted">Text, header</span></div>
-      <div class="swatch"><i style="background:#F5F7FB"></i>Paper #F5F7FB<br><span class="muted">Page</span></div>
-      <div class="swatch"><i style="background:#FFFFFF"></i>White<br><span class="muted">Reading surfaces</span></div>
-      <div class="swatch"><i style="background:#087F78"></i>Teal #087F78<br><span class="muted">Actions, progress</span></div>
-      <div class="swatch"><i style="background:#F5BD4B"></i>Gold #F5BD4B<br><span class="muted">Highlights</span></div>
-      <div class="swatch"><i style="background:#A3231B"></i>Error #A3231B<br><span class="muted">With icon and text</span></div>
-    </div>
-    <h3 style="margin-top:28px">Live contrast check</h3>
-    <p class="muted" id="contrast-sum" aria-live="polite"></p>
-    <div class="table-scroll" tabindex="0" role="region" aria-label="Contrast results"><table><thead><tr><th>Pair</th><th>Sample</th><th>Ratio</th><th>Needs</th><th>Result</th></tr></thead><tbody id="contrast-body"></tbody></table></div>
-    <p class="small muted" style="margin-top:10px">The table calculates ratios in your browser with the WCAG formula. Text needs 4.5:1. Control borders and focus rings need 3:1.</p>
-  </div>
-</section>
-
-<!-- 2 TYPE -->
-<section class="ds-sec alt reveal" id="type">
-  <div class="wrap grid-2">
-    <div>
-      <h2>2. Typography</h2>
-      <p class="lead">Only three font files load.</p>
-      <ul>
-        <li><strong>Fraunces 600</strong> for h1, h2 and h3 only.</li>
-        <li><strong>Manrope 400</strong> for body text and <strong>700</strong> for labels, buttons and bold.</li>
-        <li>Fallbacks: Georgia for headings; system-ui, Segoe UI, Roboto, Arial for body. If a download fails, text still shows.</li>
-        <li>Body is 17px with 1.65 line height. Lesson text stays under 680px wide.</li>
-      </ul>
-    </div>
-    <div>
-      <h1 style="font-size:2.2rem">Heading one</h1>
-      <h2 style="font-size:1.6rem">Heading two</h2>
-      <h3>Heading three</h3>
-      <p>Body text explains one idea at a time, in short sentences, so a complete beginner can follow it.</p>
-      <p class="small muted">Small text for notes and hints.</p>
-    </div>
-  </div>
-</section>
-
-<!-- 3 SPACE -->
-<section class="ds-sec reveal" id="space">
-  <div class="wrap">
-    <h2>3. Spacing and touch targets</h2>
-    <p class="lead">Spacing uses a 4px scale. Every control is at least 48px tall.</p>
-    <div class="spec-line"><i style="width:4px;height:12px"></i> 4</div>
-    <div class="spec-line"><i style="width:8px;height:12px"></i> 8</div>
-    <div class="spec-line"><i style="width:16px;height:12px"></i> 16</div>
-    <div class="spec-line"><i style="width:24px;height:12px"></i> 24</div>
-    <div class="spec-line"><i style="width:48px;height:12px"></i> 48</div>
-    <div class="spec-line"><i style="width:48px;height:48px;border-radius:12px"></i> 48px touch target</div>
-  </div>
-</section>
-
-<!-- 4 NAVIGATION -->
-<section class="ds-sec alt reveal" id="nav">
-  <div class="wrap measure">
-    <h2>4. Navigation</h2>
-    <p class="lead">The header above is the real component. Five items: Course, Workbook, Check Your Work, Resources, Help.</p>
-    <ul>
-      <li>Under 900px it becomes a Menu button with a text label. It opens and closes with a tap, closes with <code>Esc</code>, with a tap outside, or after a link is chosen, and returns focus to the button.</li>
-      <li>From 900px the five links show in the bar.</li>
-      <li>The Workbook, Course and Help links go to the current live pages for now.</li>
-    </ul>
-  </div>
-</section>
-
-<!-- 5 BUTTONS + FIELDS -->
-<section class="ds-sec reveal" id="states">
-  <div class="wrap">
-    <h2>5. Buttons and states</h2>
-    <p class="lead">Hover, focus and pressed show the real styles. The first three columns also respond to your pointer and keyboard.</p>
-    <div class="grid-auto" style="margin-bottom:12px">
-      <div class="state-cell"><span class="lab">Default</span><button type="button" class="btn btn-primary">Primary</button></div>
-      <div class="state-cell"><span class="lab">Hover (forced)</span><button type="button" class="btn btn-primary is-hover">Primary</button></div>
-      <div class="state-cell"><span class="lab">Focus (forced)</span><button type="button" class="btn btn-primary is-focus">Primary</button></div>
-      <div class="state-cell"><span class="lab">Active (forced)</span><button type="button" class="btn btn-primary is-active">Primary</button></div>
-      <div class="state-cell"><span class="lab">Disabled</span><button type="button" class="btn btn-primary" disabled>Primary</button></div>
-    </div>
-    <div class="grid-auto" style="margin-bottom:12px">
-      <div class="state-cell"><span class="lab">Secondary</span><button type="button" class="btn btn-secondary">Secondary</button></div>
-      <div class="state-cell"><span class="lab">Secondary hover</span><button type="button" class="btn btn-secondary is-hover">Secondary</button></div>
-      <div class="state-cell"><span class="lab">Text button</span><button type="button" class="btn btn-text">Text link</button></div>
-      <div class="state-cell"><span class="lab">Disabled</span><button type="button" class="btn btn-secondary" disabled>Secondary</button></div>
-    </div>
-    <div class="on-dark" style="background:var(--navy);padding:16px;border-radius:var(--r-m)">
-      <p style="color:#C9D1E3;margin:0 0 8px" class="small">Gold buttons only on navy, with a gold focus ring:</p>
-      <div class="row"><button type="button" class="btn btn-gold">Start learning</button><button type="button" class="btn btn-gold is-hover">Hover</button><button type="button" class="btn btn-gold" disabled>Disabled</button></div>
-    </div>
-
-    <h3 style="margin-top:32px">Form field states</h3>
-    <div class="grid-auto" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
-      <div class="field"><label for="f1">Default</label><input class="input" id="f1" type="text" placeholder="Type here"></div>
-      <div class="field"><label for="f2">Hover (forced)</label><input class="input is-hover" id="f2" type="text" value="Maple Lane"></div>
-      <div class="field"><label for="f3">Focus (forced)</label><input class="input is-focus" id="f3" type="text" value="Maple Lane"></div>
-      <div class="field"><label for="f4">Success</label><input class="input is-success" id="f4" type="text" value="12 orders per week" aria-describedby="f4h"><p class="hint ok" id="f4h" data-i="check">Metric and number are both present.</p></div>
-      <div class="field"><label for="f5">Warning</label><input class="input is-warning" id="f5" type="text" value="About 10 orders" aria-describedby="f5h"><p class="hint warn" id="f5h" data-i="alert">Say where this number comes from.</p></div>
-      <div class="field"><label for="f6">Error</label><input class="input is-error" id="f6" type="text" value="Get more customers" aria-invalid="true" aria-describedby="f6h"><p class="hint err" id="f6h" data-i="x">Add a number and a time window.</p></div>
-      <div class="field"><label for="f7">Disabled</label><input class="input" id="f7" type="text" value="Not available yet" disabled></div>
-    </div>
-    <div class="alert al-ok" role="status" data-i="check"><span>Success: your note was copied.</span></div>
-    <div class="alert al-warn" role="status" data-i="alert"><span>Warning: this number is not labelled SIMULATED or REAL.</span></div>
-    <div class="alert al-err" role="alert" data-i="x"><span>Error: the goal has no deadline.</span></div>
-  </div>
-</section>
-
-<!-- 6 PROGRESS -->
-<section class="ds-sec alt reveal" id="progress">
-  <div class="wrap measure">
-    <h2>6. Progress, quiz results and self-checks</h2>
-    <p class="lead">Four states: Not started, In progress, Practised and Self-checked. You choose the state yourself. Quiz results and self-checks are separate labels and never mix.</p>
-    <div class="callout"><ul style="margin:0;padding-left:1.2em"><li><strong>Practised:</strong> you have done the practice task.</li><li><strong>Self-checked:</strong> you rated your own work against the rubric.</li><li><span class="badge rb-auto" data-i="list">Auto-checked</span> quiz: the site marked it.</li><li><span class="badge rb-self" data-i="person">Self-assessed</span> rubric: your own judgement.</li></ul></div>
-    <p id="mod-label" style="font-weight:700;margin:20px 0 6px" aria-live="polite"></p>
-    <div class="meter" id="mod-meter" role="progressbar" aria-label="Module 1 lessons self-checked" aria-valuemin="0" aria-valuemax="4" aria-valuenow="0"><span></span></div>
-    <div style="margin-top:16px">
-      <div class="lesson-row"><span class="lesson-n">1</span><strong>What is marketing?</strong><div class="lesson-meta"><span class="badge state-badge st-none"></span><span class="badge rb-auto" data-i="list">Quiz: not taken</span><label class="vh" for="l1">Status for lesson 1</label><select class="select" id="l1" style="width:auto;min-height:44px"><option value="none">Not started</option><option value="doing">In progress</option><option value="practised">Practised</option><option value="checked">Self-checked</option></select></div></div>
-      <div class="lesson-row"><span class="lesson-n">2</span><strong>What is digital marketing?</strong><div class="lesson-meta"><span class="badge state-badge st-none"></span><label class="vh" for="l2">Status for lesson 2</label><select class="select" id="l2" style="width:auto;min-height:44px"><option value="none">Not started</option><option value="doing">In progress</option><option value="practised">Practised</option><option value="checked">Self-checked</option></select></div></div>
-      <div class="lesson-row"><span class="lesson-n">3</span><strong>How customers choose</strong><div class="lesson-meta"><span class="badge state-badge st-none"></span><label class="vh" for="l3">Status for lesson 3</label><select class="select" id="l3" style="width:auto;min-height:44px"><option value="none">Not started</option><option value="doing">In progress</option><option value="practised">Practised</option><option value="checked">Self-checked</option></select></div></div>
-      <div class="lesson-row"><span class="lesson-n">4</span><strong>Marketing channels</strong><div class="lesson-meta"><span class="badge state-badge st-none"></span><label class="vh" for="l4">Status for lesson 4</label><select class="select" id="l4" style="width:auto;min-height:44px"><option value="none">Not started</option><option value="doing">In progress</option><option value="practised">Practised</option><option value="checked">Self-checked</option></select></div></div>
-    </div>
-    <p class="small muted">The bar shows lessons you marked Self-checked. Nothing here is graded or reviewed by a person.</p>
-  </div>
-</section>
-
-<!-- 7 TERMS + CALLOUTS -->
-<section class="ds-sec reveal" id="terms">
-  <div class="wrap measure">
-    <h2>7. Definitions, callouts and data labels</h2>
-    <p class="lead">Terms are explained the first time they appear. Dotted words open a definition on tap, click, hover (desktop), or keyboard focus. <code>Esc</code> closes it.</p>
-    <p>An ad was shown 1,000 times. Each showing is an <span class="term-wrap"><button type="button" class="term" aria-expanded="false" aria-controls="def-imp">impression</button><span class="def" id="def-imp" role="note" hidden>An impression is one time an ad or post is shown on a screen. One person can see it more than once.</span></span>. We measure how many people clicked using the <span class="term-wrap"><button type="button" class="term" aria-expanded="false" aria-controls="def-ctr">CTR</button><span class="def" id="def-ctr" role="note" hidden>CTR (click-through rate) = clicks ÷ impressions × 100. Platforms may count clicks differently, so check the definition.</span></span>.</p>
-    <div class="callout co-term"><p class="callout-title" data-i="book">Key term</p><p>A <strong>channel</strong> is where you reach people. <em>Organic</em> and <em>paid</em> describe how.</p></div>
-    <div class="callout co-example"><p class="callout-title" data-i="info">Example</p><p>Instagram post to followers: organic. Promoted post on Instagram: paid.</p></div>
-    <div class="callout co-mistake"><p class="callout-title" data-i="alert">Common mistake</p><p>Treating "organic" as a channel, or as "free". It still takes time and effort.</p></div>
-    <div class="callout co-sim"><p class="callout-title" data-i="flask">Simulated notice</p><p>Maple Lane Home Bakery and its numbers are made up for practice.</p></div>
-    <h3>Data labels</h3>
-    <p class="row"><span class="badge db-sim" data-i="flask">SIMULATED</span><span class="badge db-public" data-i="globe">REAL: PUBLIC SOURCE</span><span class="badge db-learner" data-i="person">REAL: YOUR OWN DATA</span></p>
-    <p class="small muted">Every number in the course carries one of these. Shape and words differ, so colour is never the only clue.</p>
-  </div>
-</section>
-
-<!-- 8 QUIZ -->
-<section class="ds-sec alt reveal" id="quiz">
-  <div class="wrap measure">
-    <h2>8. Quiz with explanations</h2>
-    <p class="lead">The site checks these answers. You get a reason for right and wrong choices.</p>
-    <p><span class="badge rb-auto" data-i="list" id="quiz-summary">Auto-checked: not taken</span></p>
-    <div class="stack">
-    <form class="quiz" data-quiz="q1">
-      <fieldset><legend>An ad was shown 1,000 times and got 50 clicks. Using clicks ÷ impressions × 100, what is the CTR?</legend>
-        <label class="opt"><input type="radio" name="q1" value="a" data-why="This is 5 clicks out of 1,000. Check the clicks: there were 50."><span>0.5%</span></label>
-        <label class="opt"><input type="radio" name="q1" value="b" data-correct data-why="50 ÷ 1,000 = 0.05, and 0.05 × 100 = 5%. The denominator is impressions."><span>5%</span></label>
-        <label class="opt"><input type="radio" name="q1" value="c" data-why="This divides by 100 instead of by 1,000 impressions."><span>50%</span></label>
-        <label class="opt"><input type="radio" name="q1" value="d" data-why="This is 1,000 ÷ 50. It is the wrong way round: clicks go on top."><span>20%</span></label>
-      </fieldset>
-      <div class="actions"><button class="btn btn-primary" type="submit" data-check disabled>Check answer</button><button class="btn btn-secondary" type="button" data-retry hidden>Try again</button></div>
-      <div class="feedback" role="status" aria-live="polite"></div>
-    </form>
-    <form class="quiz" data-quiz="q2">
-      <fieldset><legend>Maple Lane pays to show an Instagram post to people who do not follow it. What is this?</legend>
-        <label class="opt"><input type="radio" name="q2" value="a" data-why="Organic reach comes without paying for placement. Here Maple Lane pays."><span>Organic reach</span></label>
-        <label class="opt"><input type="radio" name="q2" value="b" data-correct data-why="Paying for placement on the same channel is paid distribution."><span>Paid distribution on Instagram</span></label>
-        <label class="opt"><input type="radio" name="q2" value="c" data-why="Instagram is still the channel. Paid describes how the post gets reach."><span>A new channel</span></label>
-      </fieldset>
-      <div class="actions"><button class="btn btn-primary" type="submit" data-check disabled>Check answer</button><button class="btn btn-secondary" type="button" data-retry hidden>Try again</button></div>
-      <div class="feedback" role="status" aria-live="polite"></div>
-    </form>
-    </div>
-  </div>
-</section>
-
-<!-- 9 CHECK YOUR WORK -->
-<section class="ds-sec reveal" id="check">
-  <div class="wrap measure">
-    <h2>9. Check Your Work</h2>
-    <p class="lead">Try the task, unlock the sample, rate yourself on observable criteria, then reflect. The site does not grade your writing and no person reviews it.</p>
-    <p class="row"><span class="badge db-sim" data-i="flask">SIMULATED scenario</span></p>
-    <div class="callout"><p class="callout-title">Task</p><p>Maple Lane Home Bakery sold an average of 12 weekend cake boxes a week over the last 4 weeks. Write one measurable goal for the next month.</p></div>
-    <div class="field"><label for="ws">Your goal</label>
-      <textarea class="textarea" id="ws" rows="4" aria-describedby="ws-count"></textarea>
-      <p class="hint plain" id="ws-count" aria-live="polite"></p>
-      <p class="hint plain">Saved in this browser only. Do not type personal details.</p></div>
-    <div class="row" style="margin-top:12px">
-      <button type="button" class="btn btn-primary" id="show-sample" aria-expanded="false" aria-controls="sample">Show sample answer</button>
-      <button type="button" class="btn btn-secondary" id="copy-ws" data-i="copy">Copy my goal</button>
-    </div>
-    <p class="hint plain" id="copy-status" role="status" aria-live="polite"></p>
-    <div class="sample" id="sample" hidden>
-      <p class="badge db-sim" data-i="flask" style="margin-bottom:8px">SIMULATED sample (Strong)</p>
-      <p>Raise <span class="an">weekend cake box orders<span class="an-n">1</span></span> from <span class="an">12 a week (average of the last 4 weeks, SIMULATED)<span class="an-n">2</span></span> to <span class="an">15 a week<span class="an-n">3</span></span> by 30 June, <span class="an">counting orders in the order notebook<span class="an-n">4</span></span>. <span class="an">Review on 15 June.<span class="an-n">5</span></span></p>
-      <ol class="an-list">
-        <li><strong>Metric named.</strong> "Weekend cake box orders" says what is counted.</li>
-        <li><strong>Baseline labelled.</strong> It has a period and the SIMULATED label.</li>
-        <li><strong>Target is a small step.</strong> 15 is a test, not a promise. It is 3 above the baseline.</li>
-        <li><strong>How it is counted.</strong> Anyone can repeat the count.</li>
-        <li><strong>Review date.</strong> It gives a moment to check and adjust.</li>
-      </ol>
-    </div>
-
-    <h3 style="margin-top:32px">Self-assessment rubric</h3>
-    <p class="muted">Pick the level that matches what you can see in your own goal. Open each criterion.</p>
-    <div class="rubric">
-      <details class="crit" data-name="Goal is measurable" open><summary>Goal is measurable <span class="crit-pick">Not rated</span></summary>
-        <label class="lv"><input type="radio" name="c1" value="1"><span><strong>1. Needs Work</strong><span>No number and no deadline. Example: "Get more customers."</span></span></label>
-        <label class="lv"><input type="radio" name="c1" value="2"><span><strong>2. Developing</strong><span>Has a number or a deadline, but not both, or the number has no named metric.</span></span></label>
-        <label class="lv"><input type="radio" name="c1" value="3"><span><strong>3. Good</strong><span>Names the metric, a target number and a time window.</span></span></label>
-        <label class="lv"><input type="radio" name="c1" value="4"><span><strong>4. Strong</strong><span>Everything in Good, plus a review date and a note on how the metric is counted.</span></span></label>
-      </details>
-      <details class="crit" data-name="Goal uses a baseline"><summary>Goal uses a baseline <span class="crit-pick">Not rated</span></summary>
-        <label class="lv"><input type="radio" name="c2" value="1"><span><strong>1. Needs Work</strong><span>No starting number is mentioned.</span></span></label>
-        <label class="lv"><input type="radio" name="c2" value="2"><span><strong>2. Developing</strong><span>A starting number appears, but its source or label is missing ("about 10 orders").</span></span></label>
-        <label class="lv"><input type="radio" name="c2" value="3"><span><strong>3. Good</strong><span>Starting number is given and labelled as your own real data or SIMULATED.</span></span></label>
-        <label class="lv"><input type="radio" name="c2" value="4"><span><strong>4. Strong</strong><span>Labelled, covers a stated period, and the target is explained as a small step from it, not a promise.</span></span></label>
-      </details>
-    </div>
-    <div class="scorecard" aria-live="polite">
-      <p class="badge rb-self" data-i="person">Self-assessed</p>
-      <ul id="score-list"></ul>
-      <p id="score-msg" style="margin:0"></p>
-      <p class="small muted" style="margin:8px 0 0">This is your own judgement. It is not a grade or a review.</p>
-    </div>
-
-    <h3 style="margin-top:32px">Reflection</h3>
-    <div class="stack" style="--s5:12px">
-      <div class="field"><label for="r1">What did I do well?</label><textarea class="textarea" id="r1" rows="2" style="min-height:80px" data-persist></textarea></div>
-      <div class="field"><label for="r2">What was my biggest mistake?</label><textarea class="textarea" id="r2" rows="2" style="min-height:80px" data-persist></textarea></div>
-      <div class="field"><label for="r3">What did I improve?</label><textarea class="textarea" id="r3" rows="2" style="min-height:80px" data-persist></textarea></div>
-      <div class="field"><label for="r4">What will I do differently next time?</label><textarea class="textarea" id="r4" rows="2" style="min-height:80px" data-persist></textarea></div>
-    </div>
-  </div>
-</section>
-
-<!-- 10 BEFORE/AFTER + DIAGRAMS -->
-<section class="ds-sec alt reveal" id="diagrams">
-  <div class="wrap measure">
-    <h2>10. Before and after, funnel, chart</h2>
-    <h3>Before and after</h3>
-    <div data-ba>
-      <div class="seg" role="group" aria-label="Show before or after"><button type="button" aria-pressed="true" data-show="before">Before</button><button type="button" aria-pressed="false" data-show="after">After</button></div>
-      <div class="ba before" data-p="before"><p class="ba-label" data-i="x">Before: Needs Work</p><p style="margin:0">"Get more customers."</p></div>
-      <div class="ba after" data-p="after" hidden><p class="ba-label" data-i="check">After: Strong</p><p style="margin:0">Raise weekend cake box orders from 12 a week (last 4 weeks, SIMULATED) to 15 by 30 June. Review on 15 June.</p></div>
-    </div>
-
-    <h3 style="margin-top:32px">Customer funnel (tap a stage)</h3>
-    <div class="funnel" role="group" aria-label="Customer funnel stages">
-      <button type="button" class="fn" aria-pressed="false" data-name="Awareness" data-detail="A person first learns Maple Lane exists, for example by seeing a weekend cake box photo.">Awareness</button>
-      <button type="button" class="fn" aria-pressed="false" data-name="Consideration" data-detail="The person compares options and looks for proof, such as menu, prices and reviews.">Consideration</button>
-      <button type="button" class="fn" aria-pressed="false" data-name="Decision" data-detail="The person is ready to order. The path to order must be clear and short.">Decision</button>
-      <button type="button" class="fn" aria-pressed="false" data-name="Repeat order" data-detail="The customer orders again if the first order went well.">Repeat order</button>
-    </div>
-    <p class="fn-detail" id="fn-detail" aria-live="polite">Choose a stage to read what happens there.</p>
-
-    <h3 style="margin-top:32px">Chart with text alternative</h3>
-    <svg class="chart" viewBox="0 0 300 200" role="img" aria-labelledby="ch-t ch-d">
-      <title id="ch-t">Weekend cake box orders per week (SIMULATED)</title>
-      <desc id="ch-d">Six weeks: 11, 12, 13, 12, 14, 12 orders.</desc>
-      <text x="8" y="20">Orders per week (SIMULATED)</text>
-      <line class="axis" x1="20" y1="165" x2="292" y2="165"/>
-      <g>
-        <rect class="bar" x="30" y="97" width="30" height="68" rx="3"/><text class="val" x="45" y="91" text-anchor="middle">11</text><text x="45" y="186" text-anchor="middle">W1</text>
-        <rect class="bar" x="75" y="91" width="30" height="74" rx="3"/><text class="val" x="90" y="85" text-anchor="middle">12</text><text x="90" y="186" text-anchor="middle">W2</text>
-        <rect class="bar" x="120" y="85" width="30" height="80" rx="3"/><text class="val" x="135" y="79" text-anchor="middle">13</text><text x="135" y="186" text-anchor="middle">W3</text>
-        <rect class="bar" x="165" y="91" width="30" height="74" rx="3"/><text class="val" x="180" y="85" text-anchor="middle">12</text><text x="180" y="186" text-anchor="middle">W4</text>
-        <rect class="bar" x="210" y="79" width="30" height="86" rx="3"/><text class="val" x="225" y="73" text-anchor="middle">14</text><text x="225" y="186" text-anchor="middle">W5</text>
-        <rect class="bar" x="255" y="91" width="30" height="74" rx="3"/><text class="val" x="270" y="85" text-anchor="middle">12</text><text x="270" y="186" text-anchor="middle">W6</text>
-      </g>
-    </svg>
-    <p class="small muted">Data type: <span class="badge db-sim" data-i="flask">SIMULATED</span></p>
-  </div>
-</section>
-
-<!-- 11 MOTION -->
-<section class="ds-sec reveal" id="motion">
-  <div class="wrap measure">
-    <h2>11. Motion rules</h2>
-    <ul>
-      <li>Motion is used for feedback only: pressing, opening, answering, progress and one reveal per section.</li>
-      <li>Micro-interactions last 150 to 250ms. Reveals last up to 250ms. Only <code>transform</code> and <code>opacity</code> move.</li>
-      <li>Nothing loops. No scroll-jacking. No animation library.</li>
-      <li>If your device asks for reduced motion, every animation and transition is switched off and content just appears.</li>
-    </ul>
-  </div>
-</section>
-
-<!-- 12 PHONE PREVIEWS -->
-<section class="ds-sec alt" id="previews">
-  <div class="wrap">
-    <h2>12. Phone previews</h2>
-    <p class="lead">These are real pages in a frame of the exact width, so the layout responds as it would on that phone.</p>
-    <div class="seg" role="group" aria-label="Preview width">
-      <button type="button" data-w="320" aria-pressed="false">320</button><button type="button" data-w="360" aria-pressed="true">360</button><button type="button" data-w="390" aria-pressed="false">390</button><button type="button" data-w="414" aria-pressed="false">414</button>
-    </div>
-    <p class="small muted" id="pv-cap" aria-live="polite" style="margin:8px 0 0"></p>
-    <div class="pv-wrap" id="pv-wrap"><iframe id="pv-frame" src="ds-preview.html" title="Lesson preview at the chosen phone width" loading="lazy"></iframe></div>
-    <p style="margin-top:12px"><a class="btn btn-secondary" href="ds-preview.html">Open preview full size</a></p>
-  </div>
-</section>
-
-<section class="ds-sec" id="status">
-  <div class="wrap measure">
-    <h2>13. Sticky Continue bar</h2>
-    <p>The bar at the bottom of this page is the real component. It sits above the phone's home area, adds space so it never covers text, and slides away while you type so the on-screen keyboard cannot hide your writing. Tap into any text box above to see it.</p>
-  </div>
-</section>
-
+<article class="lesson" id="lesson" aria-labelledby="lesson-title"><div class="wrap measure"><p class="crumbs"><a href="#dashboard">Course</a> / Module 1: Foundations / Lesson 5</p><span class="badge st-doing" data-i="half">Sample lesson · In progress</span><h1 id="lesson-title">Two ways to reach people on a channel</h1><p class="lead-x">A channel is where people can find a business. Organic and paid describe two different ways a business can get attention on that same channel.</p><div class="meta-row"><span class="badge db-sim" data-i="flask">Maple Lane is SIMULATED</span><span class="badge rb-auto" data-i="list" id="quiz-summary">Auto-checked: not taken</span></div>
+<section><p class="phase"><span data-i="book">LEARN</span></p><h2>One channel, two approaches</h2><p>A <span class="term-wrap"><button type="button" class="term" aria-expanded="false" aria-controls="def-channel">channel</button><span class="def" id="def-channel" role="note" hidden>A channel is a place or platform a business uses to reach people, such as Instagram, Google Search or email.</span></span> is where a business reaches people. A business can use organic and paid approaches on the same channel.</p>
+<div class="lanes"><div class="lane o"><p class="lane-tag">● Organic approach</p><ol class="flow"><li><strong>Make a useful post</strong>Maple Lane shares a cake photo and explains what is in the box.</li><li><strong>People may see it</strong>Followers or other people may discover it through the platform.</li><li><strong>Time and effort still matter</strong>Planning, making content and replying take work. Reach is not guaranteed.</li></ol></div><div class="lane p"><p class="lane-tag">◆ Paid approach</p><ol class="flow"><li><strong>Choose a post to promote</strong>Maple Lane pays the platform to distribute the post.</li><li><strong>Set the campaign</strong>Choose an objective, audience and budget.</li><li><strong>Results can vary</strong>Competition, targeting and the ad auction affect delivery. No budget guarantees fixed reach.</li></ol></div></div><p class="caption">The channel in both examples is Instagram. The approach changes; the channel does not.</p></section>
+<section><p class="phase"><span data-i="arrow">TRY</span></p><h2>Try it with an example</h2><p>Read the example and choose the approach that best describes it.</p>
+<form class="quiz" data-quiz="lesson-organic-paid"><fieldset><legend>Maple Lane shares a cake photo on Instagram without paying to promote it. What is the approach?</legend><label class="opt"><input type="radio" name="lesson-q1" value="a" data-correct data-why="Correct. The bakery has not paid for placement. Instagram is still the channel; organic is the approach."><span>Organic</span></label><label class="opt"><input type="radio" name="lesson-q1" value="b" data-why="Paid means the business pays the platform for placement or distribution."><span>Paid</span></label><label class="opt"><input type="radio" name="lesson-q1" value="c" data-why="Instagram is the channel. Organic and paid are approaches used on a channel."><span>A new channel</span></label></fieldset><div class="actions"><button class="btn btn-primary" type="submit" data-check disabled>Check answer</button><button class="btn btn-secondary" type="button" data-retry hidden>Try again</button></div><div class="feedback" role="status" aria-live="polite"></div></form>
+<form class="quiz" data-quiz="lesson-paid"><fieldset><legend>Maple Lane pays to promote the same post to a selected audience. Which approach is this?</legend><label class="opt"><input type="radio" name="lesson-q2" value="a" data-why="The bakery is paying for distribution, so this is not organic."><span>Organic</span></label><label class="opt"><input type="radio" name="lesson-q2" value="b" data-correct data-why="Correct. Paying for promotion is a paid approach on Instagram. Delivery still depends on the auction and campaign settings."><span>Paid</span></label></fieldset><div class="actions"><button class="btn btn-primary" type="submit" data-check disabled>Check answer</button><button class="btn btn-secondary" type="button" data-retry hidden>Try again</button></div><div class="feedback" role="status" aria-live="polite"></div></form></section>
+<section><p class="phase"><span data-i="alert">CHECK</span></p><h2>Common mistakes</h2><div class="mistake"><h3>Mistake: “Organic means free.”</h3><dl><div><dt>Why it is a problem</dt><dd>It ignores the time, skill and tools needed to plan and make content.</dd></div><div><dt>How to spot it</dt><dd>Your plan includes no time for research, writing, design or replies.</dd></div><div><dt>How to improve it</dt><dd>Record the time and resources needed, even when there is no ad-placement fee.</dd></div></dl></div><div class="mistake"><h3>Mistake: “A bigger ad budget guarantees more customers.”</h3><dl><div><dt>Why it is a problem</dt><dd>Competition, audience, creative, landing page and auction conditions all affect results.</dd></div><div><dt>How to spot it</dt><dd>Your plan promises fixed views, clicks or sales from a budget alone.</dd></div><div><dt>How to improve it</dt><dd>State what you will test, which metric you will watch and when you will review it. Do not promise a result.</dd></div></dl></div></section>
+<section id="check"><p class="phase"><span data-i="check">PROVE</span></p><h2>Check your understanding</h2><p>Explain the difference in your own words. Then compare your answer with the sample.</p><div class="callout co-sim"><p class="callout-title" data-i="flask">SIMULATED practice</p><p>Maple Lane is a fictional bakery created for learning. This example does not describe a real business or campaign result.</p></div>
+<div class="field"><label for="ws">What is the difference between a channel and an organic or paid approach?</label><textarea class="textarea" id="ws" rows="4" aria-describedby="ws-count"></textarea><p class="hint plain" id="ws-count" aria-live="polite"></p><p class="hint plain">Saved in this browser only. Do not enter personal details.</p></div><div class="row" style="margin-top:12px"><button type="button" class="btn btn-primary" id="show-sample" aria-expanded="false" aria-controls="sample" disabled>Show sample answer</button><button type="button" class="btn btn-secondary" id="copy-ws" data-i="copy">Copy my answer</button></div><p class="hint plain" id="copy-status" role="status" aria-live="polite"></p>
+<div class="sample" id="sample" hidden><p class="badge db-sim" data-i="flask">SIMULATED sample answer</p><p>A <strong>channel</strong> is where people can find a business, such as Instagram or Google Search. <strong>Organic</strong> means the business is not paying for placement; it still takes time and effort. <strong>Paid</strong> means the business pays for distribution on that channel. The channel can stay the same while the approach changes.</p><p class="small muted">Why this is strong: it defines all three terms, gives examples and explains that organic and paid are approaches—not channels.</p></div>
+<h3 style="margin-top:32px">Self-assessment rubric</h3><p class="muted">Compare your answer with the sample first. Choose the level that matches what is actually present.</p><div class="rubric">
+<details class="crit" data-name="Explains channel" open><summary>Explains channel <span class="crit-pick">Not rated</span></summary><label class="lv"><input type="radio" name="c1" value="1"><span><strong>1. Needs Work</strong><span>Does not explain what a channel is.</span></span></label><label class="lv"><input type="radio" name="c1" value="2"><span><strong>2. Developing</strong><span>Names a platform but does not explain its role.</span></span></label><label class="lv"><input type="radio" name="c1" value="3"><span><strong>3. Good</strong><span>Explains where a business reaches people and gives one example.</span></span></label><label class="lv"><input type="radio" name="c1" value="4"><span><strong>4. Strong</strong><span>Explains the role of a channel and gives two accurate examples.</span></span></label></details>
+<details class="crit" data-name="Separates organic and paid"><summary>Separates organic and paid <span class="crit-pick">Not rated</span></summary><label class="lv"><input type="radio" name="c2" value="1"><span><strong>1. Needs Work</strong><span>Mixes up organic, paid and channels.</span></span></label><label class="lv"><input type="radio" name="c2" value="2"><span><strong>2. Developing</strong><span>Names an approach but does not explain the difference.</span></span></label><label class="lv"><input type="radio" name="c2" value="3"><span><strong>3. Good</strong><span>Explains that organic does not pay for placement and paid does.</span></span></label><label class="lv"><input type="radio" name="c2" value="4"><span><strong>4. Strong</strong><span>Explains both approaches and notes they can happen on the same channel.</span></span></label></details>
+<details class="crit" data-name="Uses an accurate example"><summary>Uses an accurate example <span class="crit-pick">Not rated</span></summary><label class="lv"><input type="radio" name="c3" value="1"><span><strong>1. Needs Work</strong><span>No example is included.</span></span></label><label class="lv"><input type="radio" name="c3" value="2"><span><strong>2. Developing</strong><span>Example does not make clear whether placement is paid.</span></span></label><label class="lv"><input type="radio" name="c3" value="3"><span><strong>3. Good</strong><span>Gives one correct organic or paid example.</span></span></label><label class="lv"><input type="radio" name="c3" value="4"><span><strong>4. Strong</strong><span>Compares organic and paid examples on the same platform.</span></span></label></details></div>
+<div class="scorecard" aria-live="polite"><p class="badge rb-self" data-i="person">Self-assessed · Your judgement</p><ul id="score-list"></ul><p id="score-msg" style="margin:0"></p><p class="small muted" style="margin:8px 0 0">This is a self-check, not an expert grade or human review.</p></div>
+<h3 style="margin-top:32px">Reflect and improve</h3><div class="stack" style="--s5:12px"><div class="field"><label for="r1">What did I understand well?</label><textarea class="textarea" id="r1" rows="2" data-persist></textarea></div><div class="field"><label for="r2">What was my biggest mistake?</label><textarea class="textarea" id="r2" rows="2" data-persist></textarea></div><div class="field"><label for="r3">What did I improve?</label><textarea class="textarea" id="r3" rows="2" data-persist></textarea></div><div class="field"><label for="r4">What will I do differently next time?</label><textarea class="textarea" id="r4" rows="2" data-persist></textarea></div></div><p class="small muted" id="workbook">Notes are saved in this browser only. Copy important work into your own workbook as a backup.</p></section>
+<div class="lesson-foot"><a class="btn btn-secondary" href="#dashboard">← Back to learning path</a><a class="btn btn-primary" href="#help">Continue to the next step <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+</div></article>
+<section class="band" id="resources"><div class="wrap"><h2>Learn with clarity, not a long list of tools.</h2><p class="lead-x">Each resource in the finished course will have a clear purpose, a suggested starting point and a note about fees or certificates only when verified from the provider.</p><p class="small muted">This preview does not claim partnerships, certificates, jobs or guaranteed outcomes.</p></div></section>
+<section class="band" id="help"><div class="wrap"><h2>A clear next step, whenever you need it.</h2><p class="lead-x">Each lesson will connect to the next, explain unfamiliar terms and help you review your own work.</p><a class="btn btn-primary" href="#top">Back to the beginning ↑</a></div></section>
 </main>
-<div class="continue-bar" role="region" aria-label="Page navigation">
-  <a class="btn btn-secondary" href="#top" aria-label="Back to top"><svg class="i" aria-hidden="true"><use href="#i-back"/></svg></a>
-  <a class="btn btn-primary" href="#previews">Continue to phone previews<svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
-</div>
-<script src="assets/ds/ds.js"></script>
-<script src="assets/ds/guide.js"></script>
+<details class="tech"><summary><span><strong>Design and accessibility details</strong><span>Colour contrast, component states, motion and technical notes.</span></span></summary><div class="tech-body"><div class="wrap">
+<section id="colour"><h2>Colour and contrast</h2><p class="muted">Text targets 4.5:1. Non-text controls and focus indicators target 3:1.</p><div class="swatch-grid grid-auto"><div class="swatch"><i style="background:#111D35"></i>Navy #111D35<br><span class="muted">Text and header</span></div><div class="swatch"><i style="background:#F5F7FB"></i>Paper #F5F7FB<br><span class="muted">Page</span></div><div class="swatch"><i style="background:#FFFFFF"></i>White<br><span class="muted">Reading surfaces</span></div><div class="swatch"><i style="background:#087F78"></i>Teal #087F78<br><span class="muted">Actions</span></div><div class="swatch"><i style="background:#F5BD4B"></i>Gold #F5BD4B<br><span class="muted">Highlights</span></div><div class="swatch"><i style="background:#A3231B"></i>Error #A3231B<br><span class="muted">With icon and text</span></div></div><h3 style="margin-top:24px">Live contrast check</h3><p class="muted" id="contrast-sum" aria-live="polite"></p><div class="table-scroll" tabindex="0" role="region" aria-label="Contrast results"><table><thead><tr><th>Pair</th><th>Sample</th><th>Ratio</th><th>Needs</th><th>Result</th></tr></thead><tbody id="contrast-body"></tbody></table></div></section>
+<section id="states" style="margin-top:36px"><h2>Component states</h2><div class="grid-auto"><div class="state-cell"><span class="lab">Default</span><button type="button" class="btn btn-primary">Primary</button></div><div class="state-cell"><span class="lab">Hover example</span><button type="button" class="btn btn-primary is-hover">Primary</button></div><div class="state-cell"><span class="lab">Focus example</span><button type="button" class="btn btn-primary is-focus">Primary</button></div><div class="state-cell"><span class="lab">Disabled</span><button type="button" class="btn btn-primary" disabled>Primary</button></div></div><p class="small muted">Keyboard focus remains visible. Feedback uses labels and words, not colour alone.</p></section>
+<section style="margin-top:36px"><h2>Typography, spacing and motion</h2><ul><li>Fraunces 600 for display headings; Manrope 400 and 700 for body text and controls.</li><li>Spacing follows a 4px scale. Touch targets are at least 48px high.</li><li>Reduced-motion preference removes transitions and animation.</li><li>Diagrams need text alternatives; charts need data alternatives; controls need labels and keyboard access.</li></ul></section>
+<p class="row" style="margin-top:28px"><button type="button" class="btn btn-secondary" id="reset-demo">Reset preview data</button><a class="btn btn-text" href="ds-preview.html">Open the earlier lesson component test</a></p>
+</div></div></details>
+<footer class="pv-foot"><div class="wrap"><p><strong>Seekho Digital</strong> · Learning experience preview.</p><p>This is a prototype. Sample progress and self-assessment are demonstrations, not course completion, expert review or real business results.</p></div></footer>
+<div class="continue-bar" role="region" aria-label="Page navigation"><a class="btn btn-secondary" href="#top" aria-label="Back to top"><svg class="i" aria-hidden="true"><use href="#i-back"/></svg></a><a class="btn btn-primary" href="#lesson">Explore the sample lesson <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+<script src="assets/ds/ds.js"></script><script src="assets/ds/guide.js"></script>
 </body>
 </html>
