@@ -1,0 +1,38 @@
+/* =====================================================
+   SEEKHO DIGITAL - assets/ds/tokens.css
+   Design tokens only. Change a value here and it changes everywhere.
+   Fonts (exact): Fraunces 600 (headings only); Manrope 400 and 700 (everything else).
+   That is 3 font files. Fallbacks are system fonts, so text shows even if the download fails.
+   ===================================================== */
+:root {
+  /* colour */
+  --navy: #111D35;  --navy-2: #1A2A4B;
+  --paper: #F5F7FB; --white: #FFFFFF;
+  --teal: #087F78;  --teal-d: #066560; --teal-dd: #054F4B; --teal-t: #E2F1F0;
+  --gold: #F5BD4B;  --gold-hover: #FFCB6B; --gold-t: #FCF0D3; --gold-ink: #6B4A00;
+  --ink: #1B2440;   --muted: #4F5A75;
+  --line: #DCE2EE;  /* decorative borders only */
+  --edge: #6F7B96;  /* borders of controls (3:1 or better) */
+  --ok: #066560;    --ok-bg: #E2F1F0;
+  --warn: #7A4E00;  --warn-bg: #FFF4D6;
+  --err: #A3231B;   --err-bg: #FDECEA;
+  --dis: #5F6B85;   --dis-bg: #E6EAF2;
+
+  /* type */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --fs-body: 1.0625rem;   /* 17px */
+  --fs-small: .9rem;
+
+  /* space (4px base), shape, size */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px;
+  --r-s: 8px; --r-m: 14px; --r-l: 22px;
+  --tap: 48px;
+  --header-h: 64px;
+  --measure: 680px;
+
+  /* motion */
+  --t-fast: 150ms; --t-med: 250ms; --ease: cubic-bezier(.2, .7, .2, 1);
+  --shadow: 0 1px 2px rgba(17, 29, 53, .08), 0 6px 18px rgba(17, 29, 53, .07);
+  --shadow-pop: 0 8px 24px rgba(17, 29, 53, .28);
+}
