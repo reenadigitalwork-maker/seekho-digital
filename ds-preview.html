@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<meta name="theme-color" content="#111D35">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/ds/tokens.css">
+<link rel="stylesheet" href="assets/ds/base.css">
+<link rel="stylesheet" href="assets/ds/components.css">
+<title>Lesson preview | Seekho Digital design system</title>
+</head>
+<body>
+<a class="skip" href="#main">Skip to lesson</a>
+<header class="site-header on-dark" id="top">
+  <div class="wrap hdr">
+    <a class="brand" href="design-system.html"><svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#F5BD4B"/><path d="M7 22h6v-5h6v-5h6" fill="none" stroke="#111D35" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Seekho Digital</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg><span class="mb-label">Menu</span></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="roadmap.html">Course</a>
+      <a href="projects.html">Workbook</a>
+      <a href="design-system.html#check">Check Your Work</a>
+      <a href="resources.html">Resources</a>
+      <a href="faq.html">Help</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap" style="padding-top:20px;padding-bottom:24px">
+  <p class="small muted" style="margin-bottom:6px">Module 1 / Lesson 5</p>
+  <h1 style="font-size:clamp(1.6rem,6.5vw,2.2rem)">Two ways to reach people on a channel</h1>
+  <p class="row"><span class="badge st-doing" data-i="half">In progress</span><span class="badge rb-auto" data-i="list">Quiz: not taken</span></p>
+  <h2 style="font-size:1.35rem">Learn</h2>
+  <p>A <span class="term-wrap"><button type="button" class="term" aria-expanded="false" aria-controls="p-def1">channel</button><span class="def" id="p-def1" role="note" hidden>A channel is a place where a business reaches people, such as Instagram, Google Search or email.</span></span> is where you reach people. <strong>Organic</strong> and <strong>paid</strong> are two ways to get reach on that channel.</p>
+  <div class="callout co-example"><p class="callout-title" data-i="info">Example</p><p>On Instagram, a normal post shown to followers is organic. A promoted post is paid. The channel is the same.</p></div>
+  <div class="callout co-sim"><p class="callout-title"><span class="badge db-sim" data-i="flask">SIMULATED</span></p><p>Maple Lane Home Bakery is a fictional business made for practice.</p></div>
+  <h2 style="font-size:1.35rem">Check</h2>
+  <form class="quiz" data-quiz="p1">
+    <fieldset><legend>Maple Lane pays to show a post to people who do not follow it. What is this?</legend>
+      <label class="opt"><input type="radio" name="pq" value="a" data-why="Organic reach comes without paying for placement. Here Maple Lane pays."><span>Organic reach</span></label>
+      <label class="opt"><input type="radio" name="pq" value="b" data-correct data-why="Paying to place a post in front of more people is paid distribution on the same channel."><span>Paid distribution on Instagram</span></label>
+      <label class="opt"><input type="radio" name="pq" value="c" data-why="Instagram is still the channel. Paid describes how the post gets reach."><span>A new channel</span></label>
+    </fieldset>
+    <div class="actions"><button class="btn btn-primary" type="submit" data-check disabled>Check answer</button><button class="btn btn-secondary" type="button" data-retry hidden>Try again</button></div>
+    <div class="feedback" role="status" aria-live="polite"></div>
+  </form>
+  <div class="field" style="margin-top:20px"><label for="pv-note">Your note (try typing: the bar hides while the keyboard is open)</label><textarea class="textarea" id="pv-note" rows="3"></textarea></div>
+  <p class="muted small" style="margin-top:16px">The bar at the bottom stays clear of the phone's home area and never hides this text.</p>
+</main>
+<div class="continue-bar" role="region" aria-label="Lesson navigation">
+  <button class="btn btn-secondary" type="button" aria-label="Previous lesson"><svg class="i" aria-hidden="true"><use href="#i-back"/></svg></button>
+  <button class="btn btn-primary" type="button">Continue to lesson 6<svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+</div>
+<script src="assets/ds/ds.js"></script>
+</body>
+</html>
